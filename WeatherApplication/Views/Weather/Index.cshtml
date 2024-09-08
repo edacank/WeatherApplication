@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Weather";
+}
+
+<h2>Weather in @ViewBag.City</h2>
+<p>@ViewBag.Weather</p>
+
+<form method="get">
+    <input type="text" name="city" placeholder="Enter city" />
+    <button type="submit">Get Weather</button>
+</form>
